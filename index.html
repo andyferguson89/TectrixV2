@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Tectrix Ltd</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="content/style.css">
+  <link href="content/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div class="navbar-brand">Tectrix Limited</div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#aboutus">About us</a></li>
+        <li><a href="#ourservices">Our services</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Tectrix Investigations</h1> 
+  <p>30 years of international experience in the security and investigations industry</p> 
+</div>
+
+<div id="aboutus" class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3">
+			<img src="content/images/feather.png" />
+			<br/><br/>
+			A covert feather or tectrix on a bird is one of a set of feathers, called coverts
+		</div>
+		<div class="col-sm-9">
+		  <h2>About us</h2>
+		  <h4>We provide a confidential, professional service across a broad range of disciplines, tailored to our clients' specific needs.  With direct access to specialist expertise in many fields, we present solutions to client problems however challenging or complex they may be.  Where our own internal resources are not able to meet a client’s requirements, we engage the services of reliable and trusted contractors whom we have used for a number of years.
+			<br/><br/>
+			<p>Our clients expect and demand a service that meets their individual needs and trust us to provide solutions where others fail. Clients include multi-national corporates, PLCs, lawyers/ solicitors, business & political risk consultancies, high net worth individuals and of course private citizens.</p>
+		</div>
+	</div>
+</div>
+
+<div id="ourservices" class="container-fluid text-center bg-grey">
+  <h2>Our services</h2>
+  <div class="slideanim">
+	  <div class="row">
+		<div id="BIDD" class="col-sm-3">
+		   <a href="javascript:showService('BIDD')" style="text-decoration:none;">
+				<span class="fa-stack fa-4x lightbox" src="Forensics">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-chart-area fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		  <h4>Business intelligence &#38; due diligence</h4>
+		</div>
+		<div id="INVEST" class="col-sm-3">
+		  <a href="javascript:showService('INVEST')" style="text-decoration:none;">
+				<span class="fa-stack fa-4x lightbox" src="Forensics">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-search fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		  <h4>Investigations</h4>
+		</div>
+		<div id="SURV" class="col-sm-3">
+		  <a href="javascript:showService('SURV')" style="text-decoration:none;">
+				<span class="fa-stack fa-4x lightbox" src="Forensics">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-camera-retro fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		  <h4>Surveillance</h4>
+		</div>
+		<div id="VEPRO" class="col-sm-3">
+		  <a href="javascript:showService('VEPRO')" style="text-decoration:none;">
+				<span class="fa-stack fa-4x lightbox" src="Forensics">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-user-shield fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		  <h4>VIP &#38; executive protection</h4>
+		</div>
+	  </div>
+	  <br/><br/>
+	  <div class="row">
+		<div id="SECAUD" class="col-sm-3">
+			<a href="javascript:showService('SECAUD')" style="text-decoration:none;">
+				<span class="fa-stack fa-4x lightbox" src="Forensics">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-clipboard-check fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>		  
+		<h4>Security audits</h4>
+		</div>
+		<div id="ITSEC" class="col-sm-3">
+		  <a href="javascript:showService('ITSEC')" style="text-decoration:none;">
+				<span class="fa-stack fa-4x lightbox" src="Forensics">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		  <h4>IT security</h4>
+		</div>
+		<div id="DATFOR" class="col-sm-3">
+			<a href="javascript:showService('DATFOR')" style="text-decoration:none;">
+				<span class="fa-stack fa-4x lightbox" src="Forensics">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-fingerprint fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		  <h4>Data forensics</h4>
+		</div>
+		<div id="LCSUPP" class="col-sm-3">
+		  <a href="javascript:showService('LCSUPP')" style="text-decoration:none;">
+				<span class="fa-stack fa-4x lightbox" src="Forensics">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-money-check-alt fa-stack-1x fa-inverse"></i>
+				</span>
+			</a>
+		  <h4>Liquidation &#38; closure support</h4>
+		</div>
+	  </div>
+  </div>
+</div>
+
+<!--------------------- OVERLAYS START ------------------------------------------------>
+
+<div id="BIDDOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+		<div class="row">
+			<div class="col-sm-3">
+				 <span class="fa-stack fa-4x lightbox">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-chart-area fa-stack-1x fa-inverse"></i>
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<h1>Business Intelligence &#38; Due Diligence</h1>				
+			</div>
+			<div class="col-sm-3">			
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<p>Our in-house, and consultant investigators, and our intelligence analysts can provide the detailed information that may enhance a client’s business opportunities or prevent embarrassing or damaging business decisions. Identifying significant market intelligence relating to competitors can help our clients to maintain that vital lead.</p>
+			<hr/>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<h2>Service Breakdown</h2>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<table class="table">
+					<th colspan="2">Corporate, individuals &#38; voluntary organisations</th><th colspan="2">Pre-employment screening</th>
+					<tr>
+						<td>Financial</td><td>Legal</td><td>Verify qualifications</td><td>Verify skills</td>
+					</tr>
+					<tr>
+						<td>Strategic / Operational</td><td>Reputation</td><td>Verify previous employments</td><td>Residency</td>
+					</tr>
+					<tr>
+						<td></td><td></td><td>Financial</td><td>Legal</td>
+					</tr>
+					<tr>
+						<td></td><td></td><td>Reputational</td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="INVESTOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+		<div class="row">
+			<div class="col-sm-3">
+				 <span class="fa-stack fa-4x lightbox">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-search fa-stack-1x fa-inverse"></i>
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<h1>Investigations</h1>				
+			</div>
+			<div class="col-sm-3">			
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<p>Our  investigators and intelligence analysts have a wealth of experience of conducting overt and covert investigations both with UK police forces, and also through corporate commissions. Additional expertise in forensic accounting and IT forensics has assisted with many complex fraud investigations. We also have direct access to experts in fields such as forensic services, translators, handwriting, lip reading etc.</p>
+			<hr/>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<h2>Service Breakdown</h2>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<table class="table">
+					<th>Fraud</th><th>Loss</th><th>Asset tracing</th><th>People tracing</th><th>Environmental</th>
+					<tr>
+						<td>Corporate</td><td>Theft</td><td>Hidden Assets</td><td>Corporate</td><td>Compliance</td>
+					</tr>
+					<tr>
+						<td>Insurance</td><td>Intellectual Property</td><td>Asset Ownership</td><td>Debtors</td><td>Illegal Tipping</td>
+					</tr>
+					<tr>
+						<td>Corruption</td><td></td><td>Witnesses</td><td>Legal</td><td></td>
+					</tr>
+					<tr>
+						<td>Identity</td><td></td><td>Missing Persons</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td>Scams</td><td></td><td></td><td></td><td></td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div>
+  
+<div id="SURVOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+		<div class="row">
+			<div class="col-sm-3">
+				 <span class="fa-stack fa-4x lightbox">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-camera-retro fa-stack-1x fa-inverse"></i>
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<h1>Surveillance</h1>				
+			</div>
+			<div class="col-sm-3">			
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<p>Our planners and operatives in this field are highly qualified and experienced with verifiable backgrounds that support these specialised skills. Our technical team are well equipped with the latest surveillance technology and are able to provide remote solutions where a physical presence is not achievable or necessary.</p>
+			<hr/>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<h2>Service Breakdown</h2>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<table class="table">
+					<th>Conventional</th><th>Technical</th><th>Counter surveillance</th>
+					<tr>
+						<td>Static</td><td>Tracking</td><td>Conventional</td>
+					</tr>
+					<tr>
+						<td>Mobile</td><td>Audio / CCTV</td><td>Electronic counter measures</td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div>  
+  
+<div id="VEPROOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+		<div class="row">
+			<div class="col-sm-3">
+				 <span class="fa-stack fa-4x lightbox">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-user-shield fa-stack-1x fa-inverse"></i>
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<h1>VIP &#38; executive protection</h1>				
+			</div>
+			<div class="col-sm-3">			
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<p>Company executives, celebrities and other high profile individuals can sometimes face the threat of criminal acts, physical violence or simple confrontation. To manage these risks, we can provide discreet, highly qualified and licensed operatives in most global regions. Where appropriate, we utilise trusted local resources to supplement our own highly effective personnel.</p>
+			<hr/>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<h2>Service Breakdown</h2>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<table class="table">
+					<th>Travel planning &#38; support</th><th>Chauffeurs &#38; security drivers</th><th>Personal protection</th><th>Witness protection</th>
+					<tr>
+						<td>Political &#38; Security risk analysis</td><td>Meet &#38; greet service</td><td>Pre-visit planning &#38; reconnaissance</td><td>Security briefing</td>
+					</tr>
+					<tr>
+						<td>Personal security briefing</td><td>Executive vehicles</td><td>Discrete close protection</td><td>Support protection</td>
+					</tr>
+					<tr>
+						<td>Coordination</td><td></td><td></td><td></td>
+					</tr>
+					<tr>
+						<td>Asset tracking</td><td></td><td></td><td></td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div>    
+  
+<div id="SECAUDOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+		<div class="row">
+			<div class="col-sm-3">
+				 <span class="fa-stack fa-4x lightbox">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-clipboard-check fa-stack-1x fa-inverse"></i>
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<h1>Security Audits</h1>				
+			</div>
+			<div class="col-sm-3">			
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<p>Our corporate and residential audits provide a comprehensive review of the client’s physical security, policies and procedures We then provide detailed reports with recommendations to improve any potential weaknesses.</p>
+			<hr/>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<h2>Service Breakdown</h2>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<table class="table">
+					<th colspan="2">Physical assessment</th><th colspan="2">Non-physical assessment</th>
+					<tr>
+						<td>Environment</td><td>Vulnerabilities</td><td>Liaison with authorities</td><td>Security awareness</td>
+					</tr>
+					<tr>
+						<td>Perimeter security</td><td>Access control</td><td>Environment</td><td>Crime statistics</td>
+					</tr>
+					<tr>
+						<td>Alarms</td><td>CCTV</td><td>Police & procedures</td><td></td>
+					</tr>
+					<tr>
+						<td>Vehicle Security</td><td>Communications</td><td></td><td></td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div>   
+
+<div id="ITSECOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+		<div class="row">
+			<div class="col-sm-3">
+				 <span class="fa-stack fa-4x lightbox">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-desktop fa-stack-1x fa-inverse"></i>
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<h1>IT Security</h1>				
+			</div>
+			<div class="col-sm-3">			
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<p>Technology changes at an increasing pace. Our highly qualified experts therefore maintain their skill sets at the cutting edge of this field.  We provide advice and recommendations to ensure that our clients’ IT security is at a level which reflects the sensitivity and value of the information held.</p>
+			<hr/>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<h2>Service Breakdown</h2>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<table class="table">
+					<th>Commercial</th><th>Private</th>
+					<tr>
+						<td>IT audits</td><td>IT audits</td>
+					</tr>
+					<tr>
+						<td>Consulting</td><td>Consulting</td>
+					</tr>
+					<tr>
+						<td>Penetration testing</td><td>Penetration testing</td>
+					</tr>
+					<tr>
+						<td>System upgrades and installations</td><td></td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div>   
+  
+<div id="DATFOROverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+		<div class="row">
+			<div class="col-sm-3">
+				 <span class="fa-stack fa-4x lightbox">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-fingerprint fa-stack-1x fa-inverse"></i>
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<h1>Data Forensics</h1>				
+			</div>
+			<div class="col-sm-3">			
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<p>The modern day working life revolves around IT and mobile IT solutions. Many corporate investigations lead to an electronic trail of data.  This data can be crucial, but knowing how to handle and deliver this data so that an investigation maintains credibility is where the expertise provided by Tectrix Limited can prove invaluable.</p>
+			<hr/>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<h2>Service Breakdown</h2>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<table class="table">
+					<tr>
+						<td>Recovery and reconstruction of deleted items</td><td>Email recovery and email route tracing</td><td>Analysis of internet use and behaviour profiling</td>
+					</tr>
+					<tr>
+						<td>Hard disk investigation</td><td>Computer & internet fraud</td><td>Computer misuse in the workplace</td>
+					</tr>
+					<tr>
+						<td>Digital theft involving intellectual property</td><td>Forensic accounting</td><td>IP Address location services</td>
+					</tr>
+					<tr>
+						<td>Device asset tracking and location based services</td><td></td><td></td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div>  
+  
+<div id="LCSUPPOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+		<div class="row">
+			<div class="col-sm-3">
+				 <span class="fa-stack fa-4x lightbox">
+					<i class="fas fa-circle fa-stack-2x text-primary"></i>
+					<i class="fas fa-money-check-alt fa-stack-1x fa-inverse"></i>
+				</span>
+			</div>
+			<div class="col-sm-6">
+				<h1>Liquidation &#38; Closure Support</h1>				
+			</div>
+			<div class="col-sm-3">			
+			</div>
+		</div>
+		<br/>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<p>Using licensed operatives, we are able to respond to the requirements of liquidators, administrators and receivers to secure and safeguard buildings, compounds and assets when a company experiences difficulties or ceases to trade.</p>
+			<hr/>
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<h2>Service Breakdown</h2>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-1">
+			</div>
+			<div class="col-sm-10">
+				<table class="table">
+					<th>Security</th><th>Inventory preparation</th><th>Disposal</th>
+					<tr>
+						<td>Offices</td><td>Documented &#38; indexed</td><td>Removals</td>
+					</tr>
+					<tr>
+						<td>Buildings</td><td>Photographed</td><td>Storage</td>
+					</tr>
+					<tr>
+						<td>Compounds</td><td></td><td></td>
+					</tr>
+					<tr>
+						<td>Assets</td><td></td><td></td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-1">
+			</div>
+		</div>
+	</div>
+</div> 
+
+<!--------------------- OVERLAYS END ------------------------------------------------>
+  
+<div id="contact" class="container-fluid">
+  <h2 class="text-center">Contact us</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you as soon as possible</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +44(0) 1189 574 055</p>
+	  <p><span class="glyphicon glyphicon-phone"></span> +44(0) 1189 574 046</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> office@tectrix.co.uk</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>&copy; Tectrix Limited 2020</p>
+</footer>
+
+
+<script>
+$(document).ready(function(){
+var overlayID = "";
+
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+	
+});
+
+
+function openNav() {
+
+  document.getElementById(overlayID).style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById(overlayID).style.width = "0%";
+}
+
+
+function showService(service) {
+
+overlayID = service + "Overlay";
+
+openNav();
+
+}
+</script>
+
+</body>
+</html>

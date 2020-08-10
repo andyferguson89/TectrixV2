@@ -1,0 +1,252 @@
+body {
+font: 400 15px arial, sans-serif;
+line-height: 1.8;
+color: #818181;
+}
+h2 {
+font-size: 24px;
+text-transform: uppercase;
+color: #303030;
+font-weight: 600;
+margin-bottom: 30px;
+}
+h4 {
+font-size: 19px;
+line-height: 1.375em;
+color: #303030;
+font-weight: 400;
+margin-bottom: 30px;
+}  
+.fa-4x {
+font-size: 3em !important;
+}
+.table .fa-stack-1x {
+text-align:left !important;
+}
+.overlay {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+background: linear-gradient(to right, #25c481, #25b7c4);
+overflow-x: hidden;
+transition: 0.5s;
+}
+.table{
+width:100%;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+border-top: none !important;
+text-align: left;
+}
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+.overlay-content {
+position: relative;
+top: 10%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+color: #333 !important;
+}
+.overlay-content p{
+text-align: justify;
+width: 100%;
+}
+.overlayTick {
+text-align:right !important;
+}
+.overlayList {
+text-align:left;
+}
+.overlay a:hover, .overlay a:focus {
+color: #333;
+}
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+.text-primary {
+color: #01708c;
+}
+@media screen and (max-height: 450px) {
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+font-size: 40px;
+top: 15px;
+right: 35px;
+}
+}
+.jumbotron {
+background-color: #01708c ;
+color: #fff;
+padding: 100px 25px;
+font-family: arial, sans-serif;
+letter-spacing: 5px;
+}
+.slick-prev:before, .slick-next:before { 
+color:#01708c !important;
+}
+.componentUnderline {
+border-bottom: solid 3px #01708c;	
+}
+.container-fluid {
+padding: 60px 50px;
+}
+.bg-grey {
+background-color: #f6f6f6;
+}
+.logo-small {
+color: #01708c;
+font-size: 50px;
+}
+.logo {
+color: #01708c;
+font-size: 200px;
+}
+.thumbnail {
+padding: 0 0 15px 0;
+border: none;
+border-radius: 0;
+}
+.thumbnail img {
+width: 100%;
+height: 100%;
+margin-bottom: 10px;
+}
+.carousel-control.right, .carousel-control.left {
+background-image: none;
+color: #01708c;
+}
+.carousel-indicators li {
+border-color: #01708c;
+}
+.carousel-indicators li.active {
+background-color: #01708c;
+}
+.item h4 {
+font-size: 19px;
+line-height: 1.375em;
+font-weight: 400;
+font-style: italic;
+margin: 70px 0;
+}
+.item span {
+font-style: normal;
+}
+.panel {
+border: 1px solid #01708c; 
+border-radius:0 !important;
+transition: box-shadow 0.5s;
+}
+.panel:hover {
+box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+border: 1px solid #01708c;
+background-color: #fff !important;
+color: #01708c;
+}
+.panel-heading {
+color: #fff !important;
+background-color: #01708c !important;
+padding: 25px;
+border-bottom: 1px solid transparent;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+.panel-footer {
+background-color: white !important;
+}
+.panel-footer h3 {
+font-size: 32px;
+}
+.panel-footer h4 {
+color: #aaa;
+font-size: 14px;
+}
+.panel-footer .btn {
+margin: 15px 0;
+background-color: #01708c;
+color: #fff;
+}
+.navbar {
+background-color: #01708c ;
+border: 0;
+font-size: 12px !important;
+letter-spacing: 4px;
+font-family: arial, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+color: #01708c  !important;
+background-color: #fff !important;
+text-decoration:none !important;
+}
+.navbar-default .navbar-toggle {
+border-color: transparent;
+color: #fff !important;
+}
+footer .glyphicon {
+font-size: 20px;
+margin-bottom: 20px;
+color: #01708c;
+}
+.slideanim {visibility:hidden;}
+.slide {
+animation-name: slide;
+-webkit-animation-name: slide;
+animation-duration: 1s;
+-webkit-animation-duration: 1s;
+visibility: visible;
+}
+@keyframes slide {
+0% {
+  opacity: 0;
+  transform: translateY(70%);
+} 
+100% {
+  opacity: 1;
+  transform: translateY(0%);
+}
+}
+@-webkit-keyframes slide {
+0% {
+  opacity: 0;
+  -webkit-transform: translateY(70%);
+} 
+100% {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+}
+}
+@media screen and (max-width: 768px) {
+.col-sm-4 {
+  text-align: center;
+  margin: 25px 0;
+}
+.btn-lg {
+  width: 100%;
+  margin-bottom: 35px;
+}
+}
+@media screen and (max-width: 480px) {
+.logo {
+  font-size: 150px;
+}
+}
